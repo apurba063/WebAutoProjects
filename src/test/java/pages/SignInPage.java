@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 
 public class SignInPage extends BasePage{
+    public String url = "https://www.batabd.com/";
     public String password ="@A123456a@";
     public String phoneNumber = "01675842235";
     public String Email = "cahev71384@eqvox.com";

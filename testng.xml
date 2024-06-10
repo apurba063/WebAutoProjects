@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/WebAutoProjects/src/test/java/TestCase">
+        <classes>
+            <class name="TestCase.TestCaseBata">
+                <methods>
+                    <include name="LogInIntoBata"/>
+                </methods>
+            </class>
+            <class name="TestCase.TestLogin">
+                <methods>
+                    <exclude name="testLoginWithValidCredentials"/>
+                    <exclude name="testLoginWithInvalidPassword"/>
+                    <exclude name="testLoginWithInvalidEmail"/>
+                    <exclude name="testLoginWithoutPassword"/>
+                    <exclude name="testLoginWithoutEmail"/>
+                    <exclude name="testLoginWithoutEmailAndPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
