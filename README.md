@@ -1,0 +1,1 @@
+Automation testing of the Bata website using Selenium with Java. This automation allowed me to simulate user interactions such as signing in, adding products to the cart, and placing orders. By completing this cycle, I ensured the smooth functionality of key features and workflows on the website.
